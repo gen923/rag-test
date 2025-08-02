@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "@types/pdf-parse": "^1.1.5",
     "@types/react-dropzone": "^4.2.2",
     "next": "15.4.4",
+    "pdf-parse": "^1.1.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-dropzone": "^14.3.8",
