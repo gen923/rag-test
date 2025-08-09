@@ -21,7 +21,7 @@ function calculateSimilarity(text1: string, text2: string): number {
 
 export class SimpleVectorStore {
   private chunks: DocumentChunk[] = [];
-  private dataPath = 'data/vectors/chunks.json';
+  private dataPath = path.resolve(process.cwd(), 'data/vectors/chunks.json');
 
   constructor() {
     this.loadChunks();
@@ -85,60 +85,104 @@ export class SimpleVectorStore {
       }
 
     } else if (source.includes('.pdf')) {
-      console.log('📄 PDF専用チャンキング開始（修正版）');
+      console.log('📄 PDF専用チャンキング開始（細分化版）');
       
       const lines = content.split('\n').filter(line => line.trim().length > 0);
-      let currentChunk: string[] = [];
       let chunkCount = 0;
+      
+      // 📝 Step 1: 重要な情報行を個別チャンク化
+      const importantPatterns = [
+        { pattern: /S\.K\.|◾.*S\.K\.|氏名.*S\.K\./, type: 'name_info' },
+        { pattern: /(\d{2})歳|年齢.*(\d{2})|◾.*歳/, type: 'age_info' },
+        { pattern: /最寄り.*駅|◾.*駅|駅.*最寄り/, type: 'station_info' },
+        { pattern: /(\d{2})万円|単価.*万円|◾.*単価/, type: 'salary_info' },
+        { pattern: /稼働|即日|可能|開始/, type: 'availability_info' },
+        { pattern: /TEL:|MAIL:|電話|メール/, type: 'contact_info' },
+        { pattern: /言語:|Python|JavaScript|TypeScript|Java/, type: 'skill_language' },
+        { pattern: /ツール:|Git|PowerShell|Excel/, type: 'skill_tools' },
+        { pattern: /プロジェクト|開発|システム|AI|OCR/, type: 'project_info' },
+        { pattern: /クラウド|AWS|Azure|GCP/, type: 'cloud_info' }
+      ];
+      
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        // 各重要パターンをチェック
+        for (const { pattern, type } of importantPatterns) {
+          if (pattern.test(line)) {
+            // 前後の行も含めてコンテキストを作成（最大3行）
+            const startIndex = Math.max(0, i - 1);
+            const endIndex = Math.min(lines.length - 1, i + 1);
+            const contextLines = lines.slice(startIndex, endIndex + 1);
+            
+            const chunkText = contextLines.join('\n');
+            
+            chunks.push({
+              content: chunkText,
+              metadata: {
+                type: 'pdf_detail',
+                detailType: type,
+                chunkIndex: chunkCount++,
+                lineCount: contextLines.length,
+                hasContactInfo: /TEL:|MAIL:|電話|メール/.test(chunkText),
+                hasSkillInfo: /言語:|Python|JavaScript|TypeScript/.test(chunkText),
+                hasProjectInfo: /プロジェクト|開発|システム/.test(chunkText),
+                hasPersonalInfo: /S\.K\.|歳|駅|単価/.test(chunkText),
+                hasAge: /(\d{2})歳/.test(chunkText),
+                hasStation: /駅/.test(chunkText),
+                hasSalary: /万円|単価/.test(chunkText),
+                hasAvailability: /稼働|即日|可能/.test(chunkText),
+              }
+            });
+            
+            console.log(`📋 重要情報チャンク作成: ${type} - "${line.substring(0, 50)}..."`);
+            break; // 1行につき1つのパターンマッチで十分
+          }
+        }
+      }
+      
+      // 📝 Step 2: 残りの内容を小さなチャンクに分割（Excel風）
+      let currentChunk: string[] = [];
       
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
         currentChunk.push(line);
         
-        // より大きなチャンクサイズで重要情報をまとめて保持
-        const shouldCreateChunk = (
-          currentChunk.length >= 15 && ( // 15行以上で作成
-            line.includes('◾') || 
-            line.includes('TEL:') || 
-            line.includes('MAIL:') || 
-            line.includes('スキル:') ||
-            line.includes('プロジェクト') ||
-            line.includes('経験:') ||
-            line.includes('所属:') ||
-            currentChunk.length >= 25 // 最大25行で強制作成
-          )
-        ) || i === lines.length - 1;
-        
-        if (shouldCreateChunk && currentChunk.length > 5) { // 最低6行
-          const chunkText = currentChunk.join('\n');
+        // 2-3行ごとに小さなチャンクを作成（Excel処理に近い）
+        if (currentChunk.length >= 2 && (
+          line.includes('◾') || 
+          line.includes('##') ||
+          line.includes('━') ||
+          i === lines.length - 1 ||
+          currentChunk.length >= 3
+        )) {
           
-          // より詳細なメタデータ
-          const metadata = {
-            type: 'pdf_section',
-            fileType: 'pdf',
-            chunkIndex: chunkCount++,
-            lineCount: currentChunk.length,
-            // より精密な情報分類
-            hasContactInfo: chunkText.includes('TEL:') || chunkText.includes('MAIL:') || chunkText.includes('電話') || chunkText.includes('メール'),
-            hasSkillInfo: chunkText.includes('スキル:') || chunkText.includes('言語:') || chunkText.includes('Python') || chunkText.includes('Java'),
-            hasProjectInfo: chunkText.includes('プロジェクト') || chunkText.includes('開発') || chunkText.includes('システム'),
-            hasPersonalInfo: chunkText.includes('◾') || chunkText.includes('歳') || chunkText.includes('男') || chunkText.includes('女') || chunkText.includes('最寄り') || chunkText.includes('単価'),
-            // 具体的な情報の有無をチェック
-            hasAge: chunkText.includes('歳') || /\d{2}/.test(chunkText),
-            hasStation: chunkText.includes('駅') || chunkText.includes('最寄り'),
-            hasSalary: chunkText.includes('万円') || chunkText.includes('単価'),
-            hasAvailability: chunkText.includes('稼働') || chunkText.includes('即日') || chunkText.includes('可能'),
-          };
-          
-          chunks.push({
-            content: chunkText,
-            metadata: metadata
-          });
-          currentChunk = [];
+          if (currentChunk.length > 0) {
+            const chunkText = currentChunk.join('\n');
+            
+            chunks.push({
+              content: chunkText,
+              metadata: {
+                type: 'pdf_section',
+                chunkIndex: chunkCount++,
+                lineCount: currentChunk.length,
+                hasContactInfo: /TEL:|MAIL:/.test(chunkText),
+                hasSkillInfo: /Python|JavaScript|TypeScript/.test(chunkText),
+                hasProjectInfo: /プロジェクト|開発/.test(chunkText),
+                hasPersonalInfo: /S\.K\.|歳|駅|単価/.test(chunkText),
+                hasAge: /(\d{2})歳/.test(chunkText),
+                hasStation: /駅/.test(chunkText),
+                hasSalary: /万円/.test(chunkText),
+                hasAvailability: /稼働|即日/.test(chunkText),
+              }
+            });
+            
+            currentChunk = [];
+          }
         }
       }
       
-      console.log(`📊 PDF チャンク作成完了: ${chunks.length}個（修正版・大型チャンク）`);
+      console.log(`📊 PDF チャンク作成完了: ${chunks.length}個（細分化版）`);
 
     } else {
       // 他のファイル形式の場合は意味的な段落で分割
@@ -171,9 +215,10 @@ export class SimpleVectorStore {
       console.log(`   内容: ${item.chunk.content.substring(0, 100)}...`);
     });
 
+    // search内のしきい値
     return sorted
       .slice(0, topK)
-      .filter(item => item.score > 0.05) // 閾値を0.15から0.05に下げる
+      .filter(item => item.score > 0.02) // 0.05 → 0.02
       .map(item => item.chunk);
   }
 
@@ -249,11 +294,69 @@ export class SimpleVectorStore {
       score += 0.3;
     }
     
+    // 5️⃣ プロジェクト語彙の強化
+    const projectKeywords = ['プロジェクト','実績','成果','担当','フェーズ','期間','役割','PJ'];
+    for (const kw of projectKeywords) {
+      if (contentLower.includes(kw)) score += 0.3;
+    }
+    // セクション名（Excelの職務経歴書）で加点
+    if (metadata?.section && /職務経歴書/.test(metadata.section)) score += 0.2;
+
+    // 連絡先のみっぽい断片は非PJ質問時に微減点
+    const isContacty = /tel|mail|メール|電話/.test(contentLower);
+    if (isContacty && !/連絡|メール|電話/.test(queryLower)) score -= 0.2;
+
     // 6️⃣ Excel特有のボーナス
     if (metadata.type === 'excel_data') {
       score += 0.2;
     }
     
+    // S.K. を強く評価
+    const initials = queryLower.replace(/[^a-z]/g, '');
+    if (initials === 'sk' && /\bs\.?\s*k\.?\b/i.test(content)) {
+      score += 0.85;
+    }
+    if (/s\.?\s*k\.?/i.test(content) && (contentLower.includes('歳') || contentLower.includes('駅') || contentLower.includes('単価') || contentLower.includes('稼働'))) {
+      score += 0.4;
+    }
+    // ラベルが無くても個人情報断片で加点
+    if (metadata?.detailType === 'station_info' && /駅|最寄/.test(queryLower)) score += 0.6;
+    if (metadata?.detailType === 'salary_info' && /単価|万円/.test(queryLower)) score += 0.6;
+    if (metadata?.detailType === 'availability_info' && /稼働|即日/.test(queryLower)) score += 0.6;
+
+    const fieldMap = {
+      station: ['最寄','駅'],
+      availability: ['稼働','即日','参画'],
+      salary: ['単価','万円'],
+      gender: ['性別','男性','女性'],
+      age: ['年齢','歳']
+    };
+    const wantStation = /最寄|駅/.test(queryLower);
+    const wantAvail   = /稼働|即日|参画/.test(queryLower);
+    const wantSalary  = /単価|万円/.test(queryLower);
+    const wantGender  = /性別|男性|女性/.test(queryLower);
+    const wantAge     = /年齢|歳/.test(queryLower);
+
+    if (wantStation && /最寄|駅/.test(contentLower)) score += 1.2;
+    if (wantAvail   && /稼働|即日|参画/.test(contentLower)) score += 1.0;
+    if (wantSalary  && /単価|万円/.test(contentLower)) score += 1.0;
+    if (wantGender  && /性別|男性|女性/.test(contentLower)) score += 0.8;
+    if (wantAge     && /年齢|歳/.test(contentLower)) score += 0.8;
+
+    // イニシャル＋フィールドの複合（例: sk の駅）
+    if (initials === 'sk' && wantStation && /最寄|駅/.test(contentLower)) score += 0.8;
+    if (initials === 'ys' && wantSalary  && /単価|万円/.test(contentLower)) score += 0.8;
+
+    // Excelの summary/職務経歴書 は人物情報が出やすいので微加点
+    if (metadata?.section && /summary|職務経歴書/.test(metadata.section)) score += 0.2;
+
+    // 質問に含まれなくても基本情報語は弱加点（汎用プロンプト対策）
+    if (/最寄|駅/.test(contentLower)) score += 0.3;
+    if (/稼働|即日|参画/.test(contentLower)) score += 0.25;
+    if (/単価|万円/.test(contentLower)) score += 0.25;
+    if (/性別|男性|女性/.test(contentLower)) score += 0.2;
+    if (/年齢|歳/.test(contentLower)) score += 0.2;
+
     return Math.min(score, 1.0);
   }
   
@@ -343,6 +446,30 @@ export class SimpleVectorStore {
     return {
       chunkCount: this.chunks.length,
       sources: [...new Set(this.chunks.map(c => c.source))]
+    };
+  }
+
+  public keywordSearch(keywords: string[], topK: number = 5) {
+    const lower = keywords.map(k => k.toLowerCase());
+    const scored = this.chunks.map(chunk => {
+      const text = (chunk.content || '').toLowerCase();
+      let hits = 0;
+      for (const k of lower) if (text.includes(k)) hits++;
+      return { chunk, score: hits };
+    }).filter(s => s.score > 0);
+    return scored.sort((a,b) => b.score - a.score).slice(0, topK).map(s => s.chunk);
+  }
+
+  public pickBasicFieldChunks() {
+    const pick = (pred: (m:any,c:string)=>boolean) =>
+      this.chunks.find(ch => pred(ch.metadata || {}, ch.content || ''));
+    return {
+      station: pick((m,c)=> m.hasStation || /最寄|駅/.test(c)),
+      availability: pick((m,c)=> m.hasAvailability || /稼働|即日/.test(c)),
+      salary: pick((m,c)=> m.hasSalary || /単価|万円/.test(c)),
+      gender: pick((m,c)=> m.hasGender || /性別|男性|女性/.test(c)),
+      age: pick((m,c)=> m.hasAge || /年齢|歳/.test(c)),
+      affiliation: pick((m,c)=> m.hasAffiliation || /所属|株式会社/.test(c)),
     };
   }
 }

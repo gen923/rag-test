@@ -840,27 +840,903 @@
     }
   },
   {
-    "id": "【SK_0707最新】ReAlice社営業シート.pdf_0",
-    "content": "## MAIL: k-yuuki@realice.jpshida@realice.jpbiz@realice.jp\nPythonJavaScriptTypeScript\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n## ◾️ツール: Git, PowerShell, ExcelGoogle Cloud PlatformAzureNext.js, SvelteKit, TailwindCSS\nFigmaFastAPISpringAngular, GPT-4活用\nOCR×AI, GPT-4活用\nWebFigma\nECUIJava\n## ◾:\nS.K.\n## ◾️言語: TypeScript, JavaScript, Python\nSvelteKitNext.jsPythonOCRJava\n## ◾️プロジェクト: AI×OCR\nWeb UI\n, GPT-4活用OCR\nSlackGitBacklog",
-    "source": "【SK_0707最新】ReAlice社営業シート.pdf",
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_0",
+    "content": "=== シート: summary ===\n行1: 見合う案件がございましたら、下記のいずれかの担当に営業・電話いただけますと幸いです。\n行3: 葛西　優希\nkasai yuuki | 信太　佑樹",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
     "metadata": {
-      "fileName": "【SK_0707最新】ReAlice社営業シート.pdf",
-      "fileSize": 508346,
-      "fileType": "pdf",
-      "processedAt": "2025-08-02T09:05:27.725Z",
-      "pageCount": 2,
-      "uploadDate": "2025-08-02T09:05:27.725Z",
-      "type": "pdf_section",
-      "chunkIndex": 0,
-      "lineCount": 16,
-      "hasContactInfo": true,
-      "hasSkillInfo": true,
-      "hasProjectInfo": true,
-      "hasPersonalInfo": true,
-      "hasAge": false,
-      "hasStation": false,
-      "hasSalary": false,
-      "hasAvailability": false
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_1",
+    "content": "=== シート: summary ===\nShida Yuki | 共通アドレス\n行4: TEL | 050-3778-7009 | 070-9035-1655\n行5: MAIL | k-yuuki@realice.jp | shida@realice.jp | biz@realice.jp",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_2",
+    "content": "=== シート: summary ===\n行8: ★Python／JavaScript／TypeScript案件希望★\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n◾️氏名: S.K.（37歳／男性）",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_3",
+    "content": "=== シート: summary ===\n◾️最寄り駅: 東急世田谷線 三軒茶屋駅\n◾️稼働: 即日可能\n◾️所属: ReAlice株式会社",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_4",
+    "content": "=== シート: summary ===\n◾️単価: ～60万円前後（スキル見合い）\n◾️スキル: Webシステム開発、業務効率化ツール開発、音声認識・OCR連携、クラウド構築支援\n◾️言語: TypeScript、JavaScript、Python、Java、HTML/CSS",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_5",
+    "content": "=== シート: summary ===\n◾️OS: Windows、Linux、MacOS\n◾️ツール・サービス: Git、PowerShell、Excel、Google Cloud Platform、Azure、Next.js、SvelteKit、TailwindCSS、Figma、FastAPI、Spring、Angular、GPT-4o\n【PJ例】",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_6",
+    "content": "=== シート: summary ===\n・OCR×AIによる帳票処理の精度改善（位置補正＋GPT-4o）\n・物流業界向け 音声認識×AIチャット自動応答システム\n・レスポンシブWebサイトのFigmaデザイン～コーディング",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_7",
+    "content": "=== シート: summary ===\n・ECサイト開発：UI改善・サーバーサイド構築（Java）\n・クラウド（GCP/Azure）を活用したスケーラブルな運用設計\n◾️通勤: 90分以内",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_8",
+    "content": "=== シート: summary ===\n◾️並行: 並行なし\n◾️面談: 平日9:00～18:00で対応可能\n ◾️希望案件: Python、JavaScript、TypeScriptの案件",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_9",
+    "content": "=== シート: summary ===\n ◾️優先順位: ①リモートの有無 ②案件内容 ③通勤時間\n【詳しい人柄】\nS.K.さんは、TypeScript／JavaScript／Pythonを中心に、フロント・バック問わず幅広く対応できる即戦力エンジニアです。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_10",
+    "content": "=== シート: summary ===\n特にSvelteKitやNext.jsを用いたフロントエンド開発、Pythonを活用した音声認識・OCR精度改善、Javaによるバックエンド構築など、複数技術にまたがる開発経験を持ちます。\nこれまで、物流業界のAIチャットボットやOCR業務の自動化、クラウドを活用したハイブリッドインフラ構築、レスポンシブなWeb UI改善など、実装〜検証・運用フェーズまで幅広く対応し、現場で「任せて安心」と評価を得てきました。\n技術キャッチアップにも積極的で、GPT-4oを活用したOCRプロンプト改善や、クラウド連携の並列処理最適化など、仕様を正確に読み解き、自ら課題発見〜改善提案まで行える点も強みです。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_11",
+    "content": "=== シート: summary ===\nチームの開発方針や進め方にも柔軟に対応でき、Slack・Git・Backlog等のツールも使い慣れており、即日から現場にスムーズにジョイン可能です。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: summary ===",
+      "type": "excel_section"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_12",
+    "content": "=== シート: 職務経歴書 ===\n行1: 職務経歴書\n行2: 技術者名 | S.K. | 性 別 | 男\n行3: 年 齢 | 37 | 学 歴 | 大卒",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_13",
+    "content": "=== シート: 職務経歴書 ===\n行4: 資 格 | - | 最 寄 駅 | 東急世田谷線 三軒茶屋駅\n行5: 得意分野 | サービス業, 物流業, Webシステム開発, 業務システム開発\n行6: 得意技術 | Typescript, Javascript, Python",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_14",
+    "content": "=== シート: 職務経歴書 ===\n行7: 得意業務 | 実装・単体、テスト\n行8: 自己PR | 私は動画制作等のクリエイティブの実績も過去にあることを最大の強みとし、業務に取り組む姿勢と成果に自信があります。\n これまでに、物流会社向けのAIによる1次応答システムの開発プロジェクトに携わり、フロントエンドとバックエンド両方でのプログラミングをJavaScriptおよびTypeScript（SvelteKit）を駆使して実装しました。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_15",
+    "content": "=== シート: 職務経歴書 ===\n さらに、Pythonで音声認識機能を開発し、自然な会話フローを実現させることで自動応答の成功率を90%以上に向上させました。\n これにより、顧客からの高い評価を得ています。\n また、Google Cloud PlatformとAzureを活用したハイブリッドクラウドの運用でシステムのスケーラビリティを確保し、安定したパフォーマンスを提供しました。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_16",
+    "content": "=== シート: 職務経歴書 ===\n 開発・運用においては、Gitを用いたソースコード管理やバージョン管理を徹底し、開発の品質と効率を向上させています。\n さらに、別のプロジェクトでは、HTML/CSSとJavaScriptを用いてフロントエンドのデザイン改善を行い、操作性の向上に寄与しました。\n Javaによるサーバーサイドプログラミングでデータ取得のパフォーマンスを10%以上改善し、既存のコードの最適化と保守性向上にも努めました。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_17",
+    "content": "=== シート: 職務経歴書 ===\n 迅速なデバッグ対応により、予定通りのリリースを達成することでチームの信頼を獲得しました。\nOCRでは帳票ごとに異なる文字位置問題を解消をして位置の自動補正機能を追加し、目視による確認作業を廃止、業務効率を大幅に向上いたしました。\n選択箇所を拡大してOCR対象範囲を明確化し、テキスト出力の漏れをなくしました。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_18",
+    "content": "=== シート: 職務経歴書 ===\nGPT-4oを導入し、読み取り精度向上のためのカスタムプロンプトを作成し、不要な文字を自動削除しOCR精度を大幅に改善することによって効率化が図れました。\n 新たな課題に積極的に挑戦し、技術的知識を深めることで、さらなる成果を生み出していきたいと考えています。\n行9: 期間 | 業務内容 | 役割",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_19",
+    "content": "=== シート: 職務経歴書 ===\n 規模 | 使用言語 | OS | サーバOS | FW・MW\n サービス\n 等 | 担当工程",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_20",
+    "content": "=== シート: 職務経歴書 ===\n行10: 要件定義 | 基本設計 | 詳細設計 | 実装・単体 | 結合テスト | 総合テスト | 保守・運用\n行11: 2/1/25 | 6/1/25 | ■物流業界 OCRを活用した自動化システム | SE | Python,\n Javascript,",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_21",
+    "content": "=== シート: 職務経歴書 ===\n Typescript\n Java | Windows | Windows,\n Google",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_22",
+    "content": "=== シート: 職務経歴書 ===\n  Cloud\n Platform\n Azure | Git",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_23",
+    "content": "=== シート: 職務経歴書 ===\n PowerShell\n EXCEL\n Nextjs",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_24",
+    "content": "=== シート: 職務経歴書 ===\n Angular\n Spring\n FastAPI | - | - | - | ● | ● | ● | -",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_25",
+    "content": "=== シート: 職務経歴書 ===\n行12: 【プロジェクト概要】\n ・既存OCRシステムに非AI型による精度の高さは活かしつつも\n AI型による柔軟性を取り入れて、業務効率化を図るアルゴリズムの",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_26",
+    "content": "=== シート: 職務経歴書 ===\n 導入をすることを方針とします。\n 【担当フェーズ】\n 要件定義、設計、開発、テスト、保守運用",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_27",
+    "content": "=== シート: 職務経歴書 ===\n 【担当業務】\n ①位置の自動補正機能と拡張機能\n ②AIエージェント機能(自動読み込みでフロントエンドでの表示まで自動化)",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_28",
+    "content": "=== シート: 職務経歴書 ===\n 【実績・取り組み】\n ・位置の自動補正機能を追加することにより、人の確認作業がなくなり\n 業務効率化が向上。また、帳票によって文字の位置が異なるため、選択した箇所を拡大することで、テキスト出力の漏れを無くす機能を追加。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_29",
+    "content": "=== シート: 職務経歴書 ===\n ・GPT-4oを導入し、読み込みたい文字の精度向上に貢献をし、読み取りたい文字だけ出力させるためにカスタムプロンプトを作成することで、不要な文字を削除し精度の向上に貢献。\n設定することで文字量によって、OCRの読み込みに遅延があったため、OCRの速度を上げる必要性があり並列処理の機能を入れることで、読み込み時の速度が60％向上。 | 開発メンバー\n 3名",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_30",
+    "content": "=== シート: 職務経歴書 ===\n行13: (6ヶ月間)\n行14: 1 | 8/1/24 | - | 1/1/25 | ■物流業界 電話の1次対応の自動化システム | PG | Javascript\n SvelteKit",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_31",
+    "content": "=== シート: 職務経歴書 ===\n TailwindCSS\n Python | Linux\n Windows | windows",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_32",
+    "content": "=== シート: 職務経歴書 ===\n Google\n  Cloud\n  Platform | Git",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_33",
+    "content": "=== シート: 職務経歴書 ===\n PowerShell\n Backlog\n EXCEL | - | - | - | ● | ● | ● | ●",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_34",
+    "content": "=== シート: 職務経歴書 ===\n行15: 【プロジェクト概要】 \n 物流会社向けのAIでの1次応答システムを開発し、顧客からの問い合わせ対応を自動化することで業務効率の向上を図ったプロジェクト。\n 【担当フェーズ】 ",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_35",
+    "content": "=== シート: 職務経歴書 ===\n 実装、テスト、運用支援\n 【担当業務】 \n ・フロントエンドとバックエンドのプログラミングをJavaScriptおよびTypeScript (SvelteKit) で実施。 ",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_36",
+    "content": "=== シート: 職務経歴書 ===\n ・Pythonを使用してAIモデルの開発および音声認識システムの実装。 \n ・WindowsおよびLinux環境下での開発とテストの実施。 \n ・Gitを用いたソースコード管理、バージョン管理、共同開発。 ",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_37",
+    "content": "=== シート: 職務経歴書 ===\n ・Google Cloud PlatformおよびAzureを活用したクラウド環境の構築と運用支援。 \n ・顧客要件の分析と技術的な要件への落とし込み。\n 【実績・取り組み】 ",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_38",
+    "content": "=== シート: 職務経歴書 ===\n ・SvelteKitを用いて、履歴などをみやすいようにFrontEndで表示\n ・Pythonによる音声認識機能を強化し、自然な会話フローを実現。\n  これにより、問い合わせの自動応答成功率を90%以上に向上させた。 ",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_39",
+    "content": "=== シート: 職務経歴書 ===\n ・Google Cloud PlatformとAzureを組み合わせたハイブリッドクラウドの活用により、システムのスケーラビリティを確保し、ピーク時のパフォーマンスを維持。\n ・Gitの効果的な活用でコード品質を保持し、スムーズな開発プロセスを維持。\n ・プロジェクト期間中のリリースにおいて、大きなバグやダウンタイムが発生しないように入念なテストとデバッグを実施。 | 開発メンバー",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_40",
+    "content": "=== シート: 職務経歴書 ===\n 5名\n行16: (5ヶ月間)\n行17: 2 | 10/1/23 | - | 7/1/24 | ■サービス業 Webサイトのデザインの作成 | PG | Javascript",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_41",
+    "content": "=== シート: 職務経歴書 ===\n SvelteKit\n TailwindCSS | Linux\n Windows | windows",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_42",
+    "content": "=== シート: 職務経歴書 ===\n Google\n  Cloud\n  Platform | Git",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_43",
+    "content": "=== シート: 職務経歴書 ===\n PowerShell\n Backlog\n EXCEL | - | - | - | ● | - | - | ‐",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_44",
+    "content": "=== シート: 職務経歴書 ===\n行18: 【プロジェクト概要】\n ・サービス業のWebサイト作成プロジェクトにおいて、Figmaを活用した精密なレスポンシブデザインの制作を担当。\n 【担当フェーズ】",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_45",
+    "content": "=== シート: 職務経歴書 ===\n デザイン設計、実装、単体テスト\n 【担当業務】\n ・Figmaを用いたWebサイトのデザイン構築とプロトタイプ作成",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_46",
+    "content": "=== シート: 職務経歴書 ===\n ・UI/UXを重視したレスポンシブデザインの設計と検討\n ・デザインコンポーネントの作成および再利用可能なスタイルガイドの構築\n ・HTML/CSSでのデザインの忠実な実装と最適化",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_47",
+    "content": "=== シート: 職務経歴書 ===\n ・Figmaで作成したデザインの忠実な再現を目指し、実装時に詳細な調整を実施\n ・単体テストを通じたデザイン再現性や表示崩れの確認と修正\n 【実績・取り組み】",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_48",
+    "content": "=== シート: 職務経歴書 ===\n ・Figmaを効果的に活用し、モジュール化されたデザインコンポーネントを作成することで効率化を図った。\n ・PC、タブレット、スマートフォンにおける最適なUIを提供し、多デバイス対応を成功させた。\n ・デザインと実装の間で齟齬を生じさせないよう、プロトタイプの精度を高め、開発者との連携を円滑化。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_49",
+    "content": "=== シート: 職務経歴書 ===\n ・一貫性のあるデザインを維持するためのスタイルガイドを作成し、プロジェクト全体の品質向上に貢献。\n ・納品後も高い評価を受ける視認性と操作性を備えたデザインを提供し、クライアント満足度を向上させた。 | 開発メンバー\n 4名",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_50",
+    "content": "=== シート: 職務経歴書 ===\n行19: (9ヶ月間)\n行20: 3 | 6/1/23 | - | 9/1/23 | ■サービス業 ECサイトの開発 | PG | Java\n Typescript",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_51",
+    "content": "=== シート: 職務経歴書 ===\n TailwindCSS | Linux\n MacOS | MacOS\n Azure",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_52",
+    "content": "=== シート: 職務経歴書 ===\n Google\n Cloud\n Platform | Git",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_53",
+    "content": "=== シート: 職務経歴書 ===\n PowerShell\n SSH | - | - | ● | ● | - | - | -\n行21: 【プロジェクト概要】",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_54",
+    "content": "=== シート: 職務経歴書 ===\n ・サービス業向けのECサイトの開発補助を行った。\n フロントエンドを中心にデザインの変更やJavaでのサーバーサイドの構築を行った。\n 【担当フェーズ】 ",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_55",
+    "content": "=== シート: 職務経歴書 ===\n 詳細設計、実装、単体テスト\n 【担当業務】\n ・HTML/CSSおよびJavaScriptを用いたフロントエンドのデザイン変更と実装。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_56",
+    "content": "=== シート: 職務経歴書 ===\n ・Javaによるサーバーサイドロジックのプログラミングとデータベース接続の構築。\n ・既存のコードベースの分析と、必要に応じた最適化を実施。\n ・Gitを活用したバージョン管理とコードレビューの参加。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_57",
+    "content": "=== シート: 職務経歴書 ===\n ・フロントエンドとバックエンドの連携部分のテストおよびデバッグ。\n 【実績・取り組み】\n ・UI/UXの向上を目的としたフロントエンドデザインの改善を行い、ユーザーの操作性を向上させた。",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_58",
+    "content": "=== シート: 職務経歴書 ===\n ・Javaで構築したサーバーサイド機能により、データ取得のパフォーマンスを10%以上改善。\n ・コード品質向上のためのリファクタリングを実施し、保守性を高めた。\n ・迅速なデバッグ対応を行い、開発スケジュール通りにリリースを実現。 | 開発メンバー",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
+    }
+  },
+  {
+    "id": "【SK_0707最新】ReAlice社営業シート.xlsx_59",
+    "content": "=== シート: 職務経歴書 ===\n 6名\n行22: (3ヶ月間)",
+    "source": "【SK_0707最新】ReAlice社営業シート.xlsx",
+    "metadata": {
+      "fileName": "【SK_0707最新】ReAlice社営業シート.xlsx",
+      "fileSize": 16574,
+      "fileType": "xlsx",
+      "processedAt": "2025-08-09T08:47:45.709Z",
+      "sheetCount": 2,
+      "uploadDate": "2025-08-09T08:47:45.709Z",
+      "section": "=== シート: 職務経歴書 ===",
+      "type": "excel_data"
     }
   }
 ]

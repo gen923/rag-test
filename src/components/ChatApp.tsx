@@ -779,7 +779,8 @@ export default function ChatApp() {
                       )}
                     </div>
                     
-                    {message.sources && message.sources.length > 0 && (
+                    {/* 参考情報の一覧描画（カード）部分を削除 */}
+                    {/* {message.sources && message.sources.length > 0 && (
                       <div className="mt-4 space-y-3">
                         <p className="text-xs text-gray-400 font-medium">📚 参考情報:</p>
                         <div className="grid gap-3">
@@ -794,7 +795,7 @@ export default function ChatApp() {
                           ))}
                         </div>
                       </div>
-                    )}
+                    )} */}
                   </div>
                 </div>
               ))}
